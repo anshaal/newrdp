@@ -52,7 +52,7 @@ jobs:
         steps:
         - name: 🔧 Resolve inputs (safe)
           id: cfg
-                env:
+          env:
                     RAW_TAILNET: ${{ inputs.ts_tailnet }}
                     RAW_APIKEY: ${{ inputs.ts_api_key }}
                     RAW_AUTHKEY: ${{ inputs.ts_authkey }}
